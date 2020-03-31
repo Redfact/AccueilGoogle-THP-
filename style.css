@@ -47,6 +47,15 @@
     padding-top:0.5%;
 }
 
+#lienprévention
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+
 #text
 {
     color: darkslategray;
@@ -70,12 +79,12 @@
     height: 40px;
     border-style: solid;
     border: 1px solid lightgray ;
-
 }
 
 #Boutons{
     display: flex ;
     flex-direction: row;
+    padding-top: 0.5cm;
 
 }
 
