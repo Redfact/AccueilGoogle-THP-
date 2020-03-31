@@ -1,7 +1,16 @@
+#alldiv
+{
+ display: flex ;
+ height : 100%;
+flex-direction : column;
+justify-content : space-between ;
+}
+
+
+
 #foot
 {
     display: flex;
-    margin-top: 5.3cm;
     flex-direction:column;
     justify-self: end;
     background-color: rgb(243, 243, 243);
