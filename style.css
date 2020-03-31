@@ -1,1 +1,145 @@
+#foot
+{
+    display: flex;
+    margin-top: 5.3cm;
+    flex-direction:column;
+    justify-self: end;
+    background-color: rgb(243, 243, 243);
+    padding-bottom: -10px;
+}
 
+#groupetxt2
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#groupetxt1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#ligne1
+{
+    padding: 10px 10px ;
+    border: 1px solid lightgray ;
+}
+
+#ligne2
+{
+    padding: 10px 10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: .1px solid lightgray ;
+
+}
+
+#Navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 1%;
+    padding-top:0.5%;
+}
+
+#text
+{
+    color: darkslategray;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#BarreRech
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2cm;
+    height: 40%;
+}
+
+#Barre{
+    border-radius: 60px;
+    width: 500px;
+    height: 40px;
+    border-style: solid;
+    border: 1px solid lightgray ;
+
+}
+
+#Boutons{
+    display: flex ;
+    flex-direction: row;
+
+}
+
+.bt{
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px none lightgray ;
+    height: 1cm;
+    width: 4cm;
+    color: darkslategray;
+}
+
+.border-flex
+ {
+// border: .1px solid red;
+}
+
+  .element 
+  {
+      margin : 5px 7px;
+      align-content: center;
+      padding-top: 5px;
+  }
+
+  .element3 , .element2
+  {
+      margin : 5px 7px;
+      align-content: center;
+  }
+
+  a
+  {
+      color : black ; 
+      text-decoration-style: initial;
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+
+#profile
+{
+      height: 32px;
+    padding-bottom: 5px;
+}
+
+#app{
+    height: 30px;
+}
+#google
+{
+    height: 100;
+}
